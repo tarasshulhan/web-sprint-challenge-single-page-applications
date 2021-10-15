@@ -7,6 +7,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+  width: 50%;
+  padding-bottom: 2%;
+}
+label{
+  margin-bottom: 1%;
+}
+
+h4{
+  margin-bottom: 1%;
+}
+
+input[type="checkbox"]{
+  margin-left: 5px; 
+}
+input[type="text"]{
+  margin-left: 5px; 
+}
+select{
+  margin-left: 5px; 
+}
+.inputs{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checkboxes{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
