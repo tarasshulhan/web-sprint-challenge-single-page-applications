@@ -99,7 +99,7 @@ const App = () => {
            />
         </Route>
         <Route path="/success">
-          <Success/>
+          {<Success/>}
         </Route>
       </StyledContainer>    
   );
